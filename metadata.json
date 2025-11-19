@@ -1,0 +1,5 @@
+{
+  "name": "Prioritask",
+  "description": "A smart task organizer that automatically prioritizes your work based on urgency and complexity (Quick Wins first). Features AI-powered subtask breakdown.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Prioritask",
+  "short_name": "Prioritask",
+  "description": "A smart task organizer that automatically prioritizes your work based on urgency and complexity.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/9562/9562865.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/9562/9562865.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
