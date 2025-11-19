@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Task, Priority, Complexity, SubTask } from '../types';
+import { Task } from '../types';
 import { PRIORITY_CONFIG, COMPLEXITY_CONFIG } from '../constants';
-import { ChevronRight, ChevronDown, Check, Trash2, Sparkles, Plus, GripVertical } from 'lucide-react';
+import { ChevronDown, Check, Trash2, Sparkles, Plus } from 'lucide-react';
 import { generateSubtasksAI } from '../services/geminiService';
 
 interface TaskRowProps {

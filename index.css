@@ -1,0 +1,23 @@
+/* Minimal index.css to satisfy build-time link and provide basic app defaults */
+:root {
+  --bg: #f8fafc;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* small utility: keep focused outlines visible */
+:focus {
+  outline: 2px solid rgba(99,102,241,0.25);
+  outline-offset: 2px;
+}
+
+/* placeholder for additional app-level rules */

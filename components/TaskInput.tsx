@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Priority, Complexity } from '../types';
-import { Plus, ArrowUp } from 'lucide-react';
+import { Plus } from 'lucide-react';
 
 interface TaskInputProps {
   onAdd: (title: string, priority: Priority, complexity: Complexity) => void;

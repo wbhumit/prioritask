@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Task, Priority, Complexity, SubTask } from './types';
+import { Task, Priority, Complexity } from './types';
 import { PRIORITY_WEIGHTS, COMPLEXITY_WEIGHTS } from './constants';
 import { TaskInput } from './components/TaskInput';
 import { TaskRow } from './components/TaskRow';
